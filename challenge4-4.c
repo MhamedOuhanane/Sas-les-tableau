@@ -5,7 +5,7 @@ int main()
     int i,n,max;
     do
     {
-        printf("Donner la taille du tableau : ");
+        printf("Entrer le nombre d'element du tableau : ");
         scanf("%d",&n);
     } while (n < 0 || n >= 1000);
     if (n == 0)

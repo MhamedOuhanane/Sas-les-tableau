@@ -5,7 +5,7 @@ int main(int argc, char const *argv[])
     int i,n,min;
     do
     {
-        printf("Entrer le des element du tableau : ");
+        printf("Entrer le nombre des element du tableau : ");
         scanf("%d",&n);
     } while (n < 0 || n >= 100);
     if (n == 0)

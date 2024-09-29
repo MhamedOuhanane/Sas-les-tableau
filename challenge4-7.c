@@ -35,7 +35,7 @@ int main(int argc, char const *argv[])
             }
             
         } while (a == 0);
-        printf("Le tableau T apres le tri est T[%d] ={ ",n);
+        printf("Le tableau T apres le tri croissante est T[%d] ={ ",n);
         for ( i = 0; i < n; i++)
         {
             printf("%d, ",T[i]);

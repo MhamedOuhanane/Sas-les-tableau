@@ -5,7 +5,7 @@ int main(int argc, char const *argv[])
     int a,i,n,j=0;
     do
     {
-        printf("Donner la taille du tableau T : ");
+        printf("Entrer le nombre d'element du tableau : ");
         scanf("%d",&n);
     } while (n < 0 || n >= 100);
     if (n == 0)
